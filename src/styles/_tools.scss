@@ -1,0 +1,36 @@
+/*Colors go here*/
+$primary-purple:#3E54A3;
+$primary-red :#ED2C49;
+$primary-black:#24292E;
+$orange:#F48926;
+$yellow:#F1B602;
+$Blue:#2DC2C8;
+$Green:#AAD743;
+
+
+
+/*Hereo go the fonts*/
+$NavLink-font:'Barlow',sans-serif;
+$Btn-font:'Heebo',sans-serif;
+$Heading-font:'Barlow',sans-serif;
+$Text-font:'Heebo',sans-serif;
+
+/*Hero go the weights*/
+$NavLink-weight:700;
+$Btn-weight:500;
+
+
+/*Hero go the font-size*/
+
+$fs-Nav:14px;
+$fs-MainHeading:52px;
+$fs-MainText:20px;
+$fs-RedBtn:18px;
+$fs-Heading:24px;
+$fs-Text:16px;
+$fs-other:28px;
+
+@mixin flexRow {
+    display: flex;
+    align-items: center;
+}
